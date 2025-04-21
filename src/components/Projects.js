@@ -12,15 +12,15 @@ function Projects() {
       tech: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
       image: powerbipro,
       github: "https://github.com/anwar730/powerbipro",
-      demo: "#"
+      demo: "https://powerbipro.vercel.app/"
     },
     {
       title: "Personal Portofolio",
       desc: "A sleek and responsive portfolio website built to showcase my web development projects for creating impactful digital solutions.",
       tech: ["React", "Firebase", "Tailwind CSS"],
       image: portofolio,
-      github: "#",
-      demo: "#"
+      github: "https://github.com/anwar730/my-portofolio",
+      demo: "https://my-portofolio-tawny-beta.vercel.app/"
     },
     {
       title: "Movie Zone",
