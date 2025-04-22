@@ -15,7 +15,7 @@ function Projects() {
       demo: "https://powerbipro.vercel.app/"
     },
     {
-      title: "Personal Portofolio",
+      title: "Personal Portfolio",
       desc: "A sleek and responsive portfolio website built to showcase my web development projects for creating impactful digital solutions.",
       tech: ["React", "Firebase", "Tailwind CSS"],
       image: portofolio,

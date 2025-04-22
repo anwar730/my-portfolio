@@ -1,17 +1,27 @@
-import React from 'react';
-import { Briefcase, Book, Code } from 'lucide-react';
+import React from "react";
+import { Briefcase, Book, Code } from "lucide-react";
 
 function About() {
-  const skills = ['JavaScript', 'React', 'Node.js','Data Structures & Algorithms', 'PostgreSQL', 'HTML/CSS',  'Git'];
-  
+  const skills = [
+    "JavaScript",
+    "React",
+    "Node.js",
+    "Data Structures & Algorithms",
+    "PostgreSQL",
+    "HTML/CSS",
+    "Git",
+  ];
+
   return (
     <section id="about" className="py-16 md:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900">About Me</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+            About Me
+          </h2>
           <div className="h-1 w-24 bg-indigo-600 mx-auto mt-4"></div>
         </div>
-        
+
         <div className="flex flex-col lg:flex-row gap-12 items-center">
           <div className="lg:w-1/3">
             <div className="relative bg-gray-100 rounded-lg p-4 shadow-xl">
@@ -41,27 +51,34 @@ const coffee = 3;
               </div>
             </div>
           </div>
-          
+
           <div className="lg:w-2/3">
             <p className="text-gray-700 text-lg mb-6">
-              I'm a passionate software developer with 3+ years of experience creating web applications and digital solutions. My journey in technology started when I built my first website at 15, and I've been coding ever since.
+              I'm a passionate software developer with 3+ years of experience
+              creating web applications and digital solutions. My journey in
+              technology started when I built my first website at 15, and I've
+              been coding ever since.
             </p>
-            
+
             <div className="mb-8">
               <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
                 <Briefcase className="mr-2 text-indigo-600" size={24} />
                 Work Experience
               </h3>
               <div className="space-y-4">
-                
                 <div className="p-4 bg-gray-50 rounded-lg shadow-sm">
-                  <h4 className="font-semibold">Full Stack Developer at WebSolutions</h4>
+                  <h4 className="font-semibold">
+                    Full Stack Developer at WebSolutions
+                  </h4>
                   <p className="text-gray-600">2023 - 2024</p>
-                  <p className="mt-2">Built responsive web applications using JavaScript, React, and Node.js.</p>
+                  <p className="mt-2">
+                    Built responsive web applications using JavaScript, React,
+                    and Node.js.
+                  </p>
                 </div>
               </div>
             </div>
-            
+
             <div className="mb-8">
               <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
                 <Book className="mr-2 text-indigo-600" size={24} />
@@ -83,15 +100,18 @@ const coffee = 3;
                 <h4 className="font-semibold">Software Engineering Course</h4>
                 <p className="text-gray-600">Moringa School , 2022 </p>
               </div>
-              
-             
             </div>
-            
+
             <div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">Skills</h3>
               <div className="flex flex-wrap gap-2">
                 {skills.map((skill) => (
-                  <span key={skill} className="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm">{skill}</span>
+                  <span
+                    key={skill}
+                    className="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm"
+                  >
+                    {skill}
+                  </span>
                 ))}
               </div>
             </div>
