@@ -1,6 +1,6 @@
 import React from 'react';
 import { Github, ExternalLink } from 'lucide-react';
-import moviepic from "../assets/movie.png"
+import explorr from "../assets/explorr.png"
 import powerbipro from '../assets/powerbipro.png'
 import portofolio from "../assets/portoflio.png"
 
@@ -23,12 +23,12 @@ function Projects() {
       demo: "https://my-portofolio-tawny-beta.vercel.app/"
     },
     {
-      title: "Movie Zone",
-      desc: "A sleek movie browsing platform to explore, search, and discover the latest films and ratings.",
-      tech: ["React", "Redux", "Express", "PostgreSQL"],
-      image: moviepic,
-      github: "https://github.com/anwar730/Movie-Zone",
-      demo: "https://anwar730.github.io/Movie-Zone/"
+      title: "Explorr",
+      desc: "Explorr is a modern travel discovery web application that allows users to explore trending destinations, view destination categories, read travel guides, and save for trips.",
+      tech: ["React", "Redux", "Tailwind CSS", "PostgreSQL"],
+      image: explorr,
+      github: "https://github.com/anwar730/Explor",
+      demo: "https://explor-hd9kg7thq-anwar730s-projects.vercel.app/"
     }
   ];
 
