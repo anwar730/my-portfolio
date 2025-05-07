@@ -13,7 +13,7 @@ function Projects() {
       tech: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
       image: powerbipro,
       github: "https://github.com/anwar730/powerbipro",
-      demo: "https://powerbipro.vercel.app/"
+      demo: "https://powerbipro.io/"
     },
     {
       title: "Task Manager",
