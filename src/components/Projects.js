@@ -2,7 +2,8 @@ import React from 'react';
 import { Github, ExternalLink } from 'lucide-react';
 import explorr from "../assets/explorr.png"
 import powerbipro from '../assets/powerbipro.png'
-import portofolio from "../assets/portoflio.png"
+import taskmanager from "../assets/taskmanager.png"
+
 
 function Projects() {
   const projects = [
@@ -15,13 +16,14 @@ function Projects() {
       demo: "https://powerbipro.vercel.app/"
     },
     {
-      title: "Personal Portfolio",
-      desc: "A sleek and responsive portfolio website built to showcase my web development projects for creating impactful digital solutions.",
-      tech: ["React", "Firebase", "Tailwind CSS"],
-      image: portofolio,
-      github: "https://github.com/anwar730/my-portofolio",
-      demo: "https://my-portofolio-tawny-beta.vercel.app/"
-    },
+      title: "Task Manager",
+      desc: "A full-stack web application for managing tasks with JWT authentication, allowing users to create, search, and delete tasks securely.",
+      tech: ["React", "Ruby on Rails", "PostgreSQL", "JWT"],
+      image: taskmanager,
+      github: "https://github.com/anwar730/Task-Manager",
+      demo: "https://task-manager-alpha-gilt.vercel.app/"
+    }
+    ,
     {
       title: "Explorr",
       desc: "Explorr is a modern travel discovery web application that allows users to explore trending destinations, view destination categories, read travel guides, and save for trips.",
