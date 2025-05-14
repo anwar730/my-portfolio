@@ -1,12 +1,20 @@
 import React from 'react';
 import { Github, ExternalLink } from 'lucide-react';
-import explorr from "../assets/explorr.png"
+import explorr from "../assets/explor.png"
 import powerbipro from '../assets/powerbipro.png'
 import taskmanager from "../assets/taskmanager.png"
 
 
 function Projects() {
   const projects = [
+    {
+      title: "Explorr",
+      desc: "Explorr is a full-stack travel application for discovering trending destinations, browsing categories, and saving trips.",
+      tech: ["React", "Ruby on Rails", "Tailwind CSS", "PostgreSQL"],
+      image: explorr,
+      github: "https://github.com/anwar730/Explor",
+      demo: "https://explor-git-main-anwar730s-projects.vercel.app/login"
+    },
     {
       title: "PowerBI Pro Academy",
       desc: "Empowers businesses with expert-led data visualization, training, and analytics solutions using Microsoft Power BI.",
@@ -23,15 +31,8 @@ function Projects() {
       github: "https://github.com/anwar730/Task-Manager",
       demo: "https://task-manager-alpha-gilt.vercel.app/"
     }
-    ,
-    {
-      title: "Explorr",
-      desc: "Explorr is a modern travel discovery web application that allows users to explore trending destinations, view destination categories, read travel guides, and save for trips.",
-      tech: ["React", "Redux", "Tailwind CSS", "PostgreSQL"],
-      image: explorr,
-      github: "https://github.com/anwar730/Explor",
-      demo: "https://explor-hd9kg7thq-anwar730s-projects.vercel.app/"
-    }
+    
+    
   ];
 
   return (
