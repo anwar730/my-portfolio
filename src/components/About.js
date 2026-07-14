@@ -56,7 +56,7 @@ const coffee = 3;
             <p className="text-gray-700 text-lg mb-6">
               I'm a passionate software developer with 3+ years of experience
               creating web applications and digital solutions. My journey in
-              technology started when I built my first website at 15, and I've
+              technology started when I built my first website at 16, and I've
               been coding ever since.
             </p>
 
@@ -85,8 +85,8 @@ const coffee = 3;
                 Education
               </h3>
               <div className="p-4 bg-gray-50 rounded-lg shadow-sm">
-                <h4 className="font-semibold">BS in Software Development</h4>
-                <p className="text-gray-600">KCA University, 2022 - Present</p>
+                <h4 className="font-semibold">BS in Software Development (First Class Honors)</h4>
+                <p className="text-gray-600">KCA University, 2022 - 2026</p>
               </div>
               <div className="p-4 bg-gray-50 rounded-lg shadow-sm">
                 <h4 className="font-semibold">Software Engineering Course</h4>

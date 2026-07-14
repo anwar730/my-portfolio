@@ -2,7 +2,7 @@ import React from 'react';
 import { Github, ExternalLink } from 'lucide-react';
 import explorr from "../assets/explor.png"
 import powerbipro from '../assets/powerbipro.png'
-import taskmanager from "../assets/taskmanager.png"
+import ah from "../assets/a&h.png"
 
 
 function Projects() {
@@ -24,12 +24,12 @@ function Projects() {
       demo: "https://powerbipro.io/"
     },
     {
-      title: "Task Manager",
-      desc: "A full-stack web application for managing tasks with JWT authentication, allowing users to create, search, and delete tasks securely.",
-      tech: ["React", "Ruby on Rails", "PostgreSQL", "JWT"],
-      image: taskmanager,
-      github: "https://github.com/anwar730/Task-Manager",
-      demo: "https://task-manager-alpha-gilt.vercel.app/"
+      title: "A&H Manufacturing Website",
+      desc: "Modern corporate website for A&H Manufacturing, showcasing premium stretch film and packaging solutions.",
+      tech: ["React", "Ruby on Rails", "Vue.js", "Tailwind CSS"],
+      image: ah,
+      github: "https://github.com/anwar730/a-h-wraps",
+      demo: "https://www.hamanufacturing.com/"
     }
     
     
